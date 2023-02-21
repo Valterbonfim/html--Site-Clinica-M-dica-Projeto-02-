@@ -1,0 +1,104 @@
+html,body{
+    margin: 0;
+    
+    }
+
+.body {
+   background-color: #f1f1f1;
+   display: flex;
+   justify-content: center;
+}
+       
+.wrapper {
+          width:1200px;
+          display:inline-flex;
+          margin: 0% auto;
+          background-color: aquamarine;
+          align-items: center;  
+     }
+     
+.Header {
+          display:flex;
+          flex-flow: column;
+          width:150%;
+
+     }
+
+     .Menu {
+          width: 15%;     
+          background-color: aqua; 
+          padding: 10px 20px 0px;  
+          display: inline-block;
+          text-align:left;
+                    
+
+     }
+
+     .Cabeçalho {
+       background: rgb(77, 98, 98);
+       min-height: 100px;
+       
+     }
+     
+     .Content {
+      background-color: #f1f1f1;
+      min-height: 300px;
+      padding: 0px;
+
+      
+     }
+
+     .Footer{
+      background-color: rgb(99,56,240);
+      min-height: 150px;
+      text-align: center;
+       
+      
+     }
+     .img{     
+      height: 210px;
+      width: 1050px;
+      object-fit: cover; 
+      margin-left: auto; 
+      display: block;
+      border-radius: 60%;
+      
+     }
+
+     h1 {
+        text-align: center;
+    }
+     
+.btn1 {
+    border: rgb(255, 47, 75);
+    border-color: black;
+    border-radius: 10%;
+    padding: 5px 10px 10px 5px;
+    background-color: rgb(78, 20, 193);
+    width: 100%;
+       
+}    
+
+.img3{
+      height: 210px;
+      width: 850px;
+      object-fit:cover; 
+      margin-left:auto; 
+      align-items:center;
+      border-radius: 0%;
+}
+.Linha01{
+    text-align: center;
+    background-color: blue;
+    color: white;
+
+}
+.telefone{
+    height: 20px;
+    position:absolute;
+    left: 9%;
+    margin-left: auto;
+
+
+   
+}
